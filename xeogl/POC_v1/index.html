@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/xeogl.js"></script>
+    <title>xeogl - poc</title>
+</head>
+<body>
+    <script>
+        const scene = new xeogl.Scene({
+
+        transpartent: true
+
+        });
+
+        let geometry = new xeogl.TorusGeometry({
+        radius: 1.0,
+        tube: 0.3
+        });
+
+        let material = new xeogl.MetallicMaterial({
+        baseColorMap: new xeogl.Texture({
+            src: "./js/uvGrid2.jpg"
+        }),
+        roughnessMap: new xeogl.Texture({
+            src: "./js/goldRoughness.jpg"
+        })
+        });
+
+        let mesh = new xeogl.Mesh({
+        geometry: geometry,
+        material: material,
+        position: [0,0,10]
+        });
+
+        var update = function () {
+
+        requestAnimationFrame(update);
+        };
+
+        let cameraControl = new xeogl.CameraControl();
+
+        update();
+    </script>
+
+</body>
+</html>
