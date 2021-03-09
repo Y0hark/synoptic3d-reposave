@@ -16,7 +16,7 @@
 ## Interaction et but du projet
 
 Ce projet a pour but de mettre en scène une un entrepôt dans lequel sont disposées des étagères et des boîtes.
-Les boîtes sont agencées de manière aléatoire, le but étant de pousser l'exploration du framework un peu plus loin que le *POC_v1*.
+Les boîtes sont agencées de manière aléatoire, le but étant de pousser l'exploration du framework un peu plus loin que le *POC_v1* et de faire un refactoring du *POC_v2*.
 
 ### Les contrôles
 
