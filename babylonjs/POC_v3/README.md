@@ -1,4 +1,4 @@
-# Le projet POC_v2 avec Babylonjs
+# Le projet POC_v3 avec Babylonjs
 
 ## Installer Node.js et préparer l'environnement d'exécution
 
